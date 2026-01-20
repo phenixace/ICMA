@@ -1065,9 +1065,9 @@ class LLMCollator(object):
 
 if __name__ == "__main__":
     # dt = ZeroShotDataset("./data/MoleculeNet/", "toxcast", False, "test")
-    # dt = RetrievalDataset("./data/MoleculeNet/", "sider", False, "test", n_shot=2, add_special_token=False, m2c_method="gnn", c2m_method="bm25", random_walk=True, start_pos=1)
+    # dt = RetrievalDataset("./data/MoleculeNet/", "sider", False, "test", n_shot=2, add_special_token=False, m2c_method="gnn", c2m_method="bm25", start_pos=1)
 
-    dt = RetrievalDataset("./data/ChEBI-20/raw/", "cap2mol", add_eos=True, mode="train", n_shot=4, add_special_token=False, m2c_method="gnn", c2m_method="bm25", reverse=True, random_walk=True, start_pos=1)
+    dt = RetrievalDataset("./data/ChEBI-20/raw/", "cap2mol", add_eos=True, mode="train", n_shot=4, add_special_token=False, m2c_method="gnn", c2m_method="bm25", start_pos=1)
     print(len(dt))
     print(dt[0])
     
