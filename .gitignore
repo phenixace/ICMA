@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Model checkpoints and outputs
+ckp/
+wandb/
+*.log
+predictions/
+moleculenet_predictions/
+rebuttal_predictions/
+reason_pred/
+
+# Data files (uncomment if you don't want to commit data)
+# data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
